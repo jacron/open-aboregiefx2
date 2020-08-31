@@ -1,0 +1,23 @@
+{
+  "name": "AboRegieFx2",
+  "description": "Open Current Site In AboRegie",
+  "version": "0.1",
+  "permissions": [
+    "tabs"
+  ],
+  "browser_action": {
+    "default_icon": "images/key-icon16.png",
+    "default_title": "open in AboRegieFx2"
+  },
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "icons": {
+    "16": "images/key-icon16.png",
+    "32": "images/key-icon32.png",
+    "48": "images/key-icon48.png",
+    "128": "images/key-icon128.png"
+  },
+  "manifest_version": 2
+}
